@@ -1,0 +1,48 @@
+----------------------------------------------------------------
+>>> show proxy
+        Show all content of haproxy.cfg
+     -f or --frontend
+        List front_ends in haproxy.cfg
+     -b or --backend
+        List back_ends in haproxy.cfg
+
+
+>>> show dns
+        Show: index ~ name of zone
+>>> show dns <index>
+       Show all content of zone with that index
+
+
+>>> add dns <domain> <IP for primary_A> <number of Aditional_A> <IP1,subdomainORhostname> ...
+        Make a zone file for dns and active dns to Authoritative for this zone
+
+>>> add proxy <domain> <IP>
+        Add backend and front end and make connection between them in haproxy.cfg
+
+
+>>> add shecan <domain>
+        *This magic command do all of above thing for you to easily add (ft_proxy + bk_proxy + zone) and active them together
+
+
+>>> remove proxy <domain>
+        Delete backends and frontend of this acl or website
+>>> remove dns <index>
+        Disable this zone and delete it
+>>> remove shecan <domain>
+        Do reverse of ">> add shecan"
+
+>>> restart proxy
+        Restart haproxy services
+>>> restart dns
+        Restart bind services
+>>> restart shecan
+        Restart bin and haproxy
+
+>>> CRTL+C
+       Stop your connection
+>>> restore
+        Restore all of files to the first state:
+            - Delete all zone
+            - Erase named.conf.local
+            - Set haproxy.cfg to first state
+-------------------------------------------------------------------

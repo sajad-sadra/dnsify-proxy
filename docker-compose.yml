@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  dp:
+    image: sajadsadra/dnsify_proxy:latest
+    environment:
+      - DP_PASSWORD=yourpass
+      - DP_EMAIL=user@example.ex
+      - DP_NS=example.ex
+    ports:
+      - "53:53"
+      - "443:443"
+      - "8585:panelPort"
