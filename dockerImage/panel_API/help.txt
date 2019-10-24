@@ -20,7 +20,7 @@
         Add backend and front end and make connection between them in haproxy.cfg
 
 
->>> add shecan <domain>
+>>> add gozar <domain>
         *This magic command do all of above thing for you to easily add (ft_proxy + bk_proxy + zone) and active them together
 
 
@@ -28,14 +28,14 @@
         Delete backends and frontend of this acl or website
 >>> remove dns <index>
         Disable this zone and delete it
->>> remove shecan <domain>
-        Do reverse of ">> add shecan"
+>>> remove gozar <domain>
+        Do reverse of ">> add gozar"
 
 >>> restart proxy
         Restart haproxy services
 >>> restart dns
         Restart bind services
->>> restart shecan
+>>> restart gozar
         Restart bin and haproxy
 
 >>> CRTL+C

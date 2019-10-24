@@ -50,7 +50,7 @@ def show(args):
             return "invalid"
     else:
         return "invalid"
-def removeShecan(domain):
+def removegozar(domain):
     try:
         index = Dns.zonesList().index(domain) + 1
         ans1 = Dns.remove(index)
@@ -65,7 +65,7 @@ def removeShecan(domain):
     except ValueError as ve:
         print(ve)
         return "notfound"
-def addShecan(domain):
+def addgozar(domain):
     try:
         ip = socket.gethostbyname(domain)  # resolve ip of website
         addAlist = [[IP, "www"], [IP, "@"]]
@@ -79,7 +79,7 @@ def addShecan(domain):
     except UnicodeError as unce:
         print(unce)
         return "notfound"
-def resetShecan():
+def resetgozar():
     dnsResult = Dns.restart()
     if dnsResult == "done":
         return Proxy.restart()
@@ -104,20 +104,20 @@ def start(cmd):
             return Dns.addZone(args[2], args[3], getAdditinalArecord(args))
         elif args[0] == "add" and args[1] == "proxy" and len(args) == 4:
             return Proxy.add(args)
-        elif args[0] == "add" and args[1] == "shecan" and len(args) == 3:
-            return addShecan(args[2])
+        elif args[0] == "add" and args[1] == "gozar" and len(args) == 3:
+            return addgozar(args[2])
         elif args[0] == "remove" and args[1] == "dns" and len(args) == 3 and args[2].isdecimal() and int(args[2]) != 0:
             return Dns.remove(int(args[2]))
         elif args[0] == "remove" and args[1] == "proxy" and len(args) == 3:
             return Proxy.remove(args[2])
-        elif args[0] == "remove" and args[1] == "shecan" and len(args) == 3:
-            return removeShecan(args[2])
+        elif args[0] == "remove" and args[1] == "gozar" and len(args) == 3:
+            return removegozar(args[2])
         elif args[0] == "restart" and args[1] == "dns":
             return Dns.restart()
         elif args[0] == "restart" and args[1] == "proxy":
             return Proxy.restart()
-        elif args[0] == "restart" and args[1] == "shecan":
-            return resetShecan()
+        elif args[0] == "restart" and args[1] == "gozar":
+            return resetgozar()
         else:
             return "invalid"
 
