@@ -9,7 +9,7 @@ and connect to client with TCP protocol
  - DP_PORT = the port that control panel used to be controlled (don't use reserved port)
 
 ## How to Connect
-** Use telnet at port that entered as DP_PORT
+** Use telnet at default port(23)
 
 ** Ctrl_C to stop
 

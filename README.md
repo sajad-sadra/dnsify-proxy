@@ -4,6 +4,3 @@
  - DP_PASSWORD = the password for admin login
  - DP_EMAIL = email that used in dns zones (in simple form without end dot)
  - DP_NS = dns server name that used in zones (without end dot)
-
-#### NOTICE
-Change the panelPort in ports part  
