@@ -11,3 +11,6 @@ services:
       - "53:53/udp"
       - "53:53/tcp"
       - "panelPort:8585"
+    volumes:
+      - ./dockerImage/panel_API/bind:/etc/bind
+      - ./dockerImage/panel_API/haproxy:/etc/haproxy
