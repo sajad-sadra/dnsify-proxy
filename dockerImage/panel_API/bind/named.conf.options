@@ -1,15 +1,9 @@
-#acl trusted {
-#	192.168.122.0/24;
-#	localhost;
-#	localnets;
-#};
-
 options {
 	directory "/var/cache/bind";
 
 	recursion yes;
         allow-transfer { none; };
-#	allow-query { trusted; };
+	allow-query { any; };
 
 
 	// If there is a firewall between you and nameservers you want
