@@ -12,5 +12,9 @@ services:
       - "53:53/tcp"
       - "23:8585"
     volumes:
-      - ./dockerImage/panel_API/bind:/etc/bind
-      - ./dockerImage/panel_API/haproxy:/etc/haproxy
+      - dnsdir:/etc/bind
+      - proxydir:/etc/haproxy
+
+volumes:
+  dnsdir:
+  proxydir:
