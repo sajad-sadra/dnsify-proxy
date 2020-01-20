@@ -3,6 +3,7 @@ It is use for load balancing layer7 with domain name.
 This image use:
  - <code>HAproxy</code> the most popular layer7 load-balander
  - <code>Bind</code> the popular dns managing app
+ - <code>Python</code> for managing services easily
 ## Setup
  Easy setup with docker-compose
  Also docker image is available in this <a href="https://hub.docker.com/repository/docker/sajadsadra/dnsify_proxy">link</a>
