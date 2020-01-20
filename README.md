@@ -12,3 +12,6 @@ This image use:
  - DP_PASSWORD = the password for admin login
  - DP_EMAIL = email that used in dns zones (in simple form without end dot)
  - DP_NS = dns server name that used in zones (without end dot)
+ 
+ ## How to use
+ Click on <a herf="https://github.com/sajad-sadra/dnsifyproxy/blob/master/dockerImage/panel_API/README.md">Link</a> and read the README.md
