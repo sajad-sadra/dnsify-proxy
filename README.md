@@ -14,4 +14,4 @@ This image use:
  - DP_NS = dns server name that used in zones (without end dot)
  
  ## How to use
- Click on <a herf="https://github.com/sajad-sadra/dnsifyproxy/blob/master/dockerImage/panel_API/README.md">link</a> and read the README.md
+ Click on <a href="https://github.com/sajad-sadra/dnsifyproxy/blob/master/dockerImage/panel_API/README.md">link</a> and read the README.md
