@@ -16,4 +16,4 @@ This image use:
  ## How to use
  Click on <a href="https://github.com/sajad-sadra/dnsifyproxy/blob/master/dockerImage/panel_API/README.md">link</a> and read the README.md
 
-<font color="red" size=4> New dnsifyproxy (envoy+nodejs) comming soon..... </font>
+<font color="red" size=4> <b>New dnsifyproxy (envoy+nodejs) comming soon.....</b> </font>
