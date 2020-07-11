@@ -1,11 +1,1387 @@
 {
 	"version": 2,
-	"remoteDnsServers": [
-		"My_Public_IP:54"
-	],
+	"remoteDnsServers": [ "My_Public_IP:54" ],
 	"envs": [
 		{
-			"name": ""
+			"name": "",
+			"hostnames": [
+				{
+					"id": 1594394336963417097,
+					"hostname": "main.gozar",
+					"ip": "95.217.80.28",
+					"target": "acme.com",
+					"ttl": 288,
+					"type": "A"
+				},
+				{
+					"id": 1594395608610340251,
+					"hostname": "www.intel.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371050878262,
+					"hostname": "developer.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371059949143,
+					"hostname": "gweb-cloudblog-publish.appspot.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371067942666,
+					"hostname": "survey.g.doubleclick.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371099289252,
+					"hostname": "grafana.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371112224983,
+					"hostname": "www.bazel.build",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371119151724,
+					"hostname": "jinja.palletsprojects.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371123791851,
+					"hostname": "developer.android.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371129304512,
+					"hostname": "cloud.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371144966849,
+					"hostname": "api.olark.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371160195271,
+					"hostname": "tricksinfo.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371197242925,
+					"hostname": "www.youidraw.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371231120568,
+					"hostname": "b.siftscience.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371238221694,
+					"hostname": "mrtehran.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371283598846,
+					"hostname": "static.nvidiagrid.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371706635271,
+					"hostname": "servicemanagement.clients6.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371813152237,
+					"hostname": "cdn01.gitter.im",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371822210929,
+					"hostname": "www.jaegertracing.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371833066940,
+					"hostname": "js.braintreegateway.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371843984127,
+					"hostname": ".onesignal.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371852146334,
+					"hostname": "assets.datacamp.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371864215237,
+					"hostname": "wac-cdn.atlassian.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371872009973,
+					"hostname": "bitbucket.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371881192007,
+					"hostname": "blog.envoyproxy.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371933421123,
+					"hostname": "infra-reporter.datacamp.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371946959603,
+					"hostname": "links.datacamp.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371948009825,
+					"hostname": "tools.coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371953066207,
+					"hostname": "milkshake.app",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371976216606,
+					"hostname": "itsfoss.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371983395549,
+					"hostname": "letsencrypt.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396371997467054,
+					"hostname": "corpredirect.intel.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372041864283,
+					"hostname": "px.spiceworks.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372174679772,
+					"hostname": ".gradle.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372183610263,
+					"hostname": "coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372312918718,
+					"hostname": ".mongodb.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372348413013,
+					"hostname": "cyfe.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372363541485,
+					"hostname": "accounts.spiceworks.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372370253238,
+					"hostname": "m.chiltepin.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372379605898,
+					"hostname": "content.spiceworksstatic.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372471451133,
+					"hostname": "www91.intel.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372484400316,
+					"hostname": "edge.spiceworksstatic.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372528759573,
+					"hostname": "www.freecodecamp.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372624491622,
+					"hostname": "www.codewithmosh.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372640526626,
+					"hostname": "developers.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372647242347,
+					"hostname": "fp-vp.azureedge.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372667726728,
+					"hostname": "datastudio.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372720448796,
+					"hostname": "cdn02.gitter.im",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372818103214,
+					"hostname": "intljs.rmtag.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372833176431,
+					"hostname": "placeit.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396372998418659,
+					"hostname": "cdn03.gitter.im",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373006507286,
+					"hostname": "www.hiroom2.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373013536007,
+					"hostname": "consumer.pearmill.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373021852791,
+					"hostname": ".envato.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373043297266,
+					"hostname": "graphicriver.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373065546408,
+					"hostname": "services9.arcgis.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373096072033,
+					"hostname": ".envanto.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373097490070,
+					"hostname": "www.mxplayer.in",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373151329245,
+					"hostname": "community.grafana.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373181144425,
+					"hostname": "www.apowersoft.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373190163208,
+					"hostname": "promo.datacamp.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373247617969,
+					"hostname": "developers-dot-devsite-v2-prod.appspot.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373260991231,
+					"hostname": "www2.profitwell.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373269695286,
+					"hostname": ".clockify.me",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373275937661,
+					"hostname": "gisanddata.maps.arcgis.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373307532673,
+					"hostname": "gekko.spiceworks.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373334906913,
+					"hostname": "www.vysor.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373394614973,
+					"hostname": "utm.coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373402747111,
+					"hostname": "ookla.bintray.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373417507319,
+					"hostname": "resources.infosecinstitute.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373465696093,
+					"hostname": "illinois.coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373494095655,
+					"hostname": "www.loadbalancer.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373509943418,
+					"hostname": "www.tensorflow.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373523867158,
+					"hostname": "www.geeksforgeeks.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373796317843,
+					"hostname": "nuxtjs.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373814856520,
+					"hostname": "tensorflow-dot-devsite-v2-prod-3p.appspot.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373823581701,
+					"hostname": "www.datacamp.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373832619856,
+					"hostname": "stackshare.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373843267103,
+					"hostname": "console.developers.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373850472152,
+					"hostname": "cloudresourcemanager.clients6.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373860690013,
+					"hostname": "cloudusersettings-pa.clients6.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373869586126,
+					"hostname": ".googleapis.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373878666368,
+					"hostname": "cdn.wootric.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373959769338,
+					"hostname": "apikeys.clients6.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396373986037316,
+					"hostname": "blog.bazel.build",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374009348717,
+					"hostname": "legal.coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374031391956,
+					"hostname": ".geforce.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374230429269,
+					"hostname": "secure.gravatar.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374243569545,
+					"hostname": "analytics.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374281310077,
+					"hostname": "chaseadams.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374337734540,
+					"hostname": "query.petametrics.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374345643164,
+					"hostname": "apis.google.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374370550444,
+					"hostname": "www.worldometers.info",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374421713981,
+					"hostname": "chat.monksoftware.it",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374466798016,
+					"hostname": "vjudge.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374526398038,
+					"hostname": "nebraska.coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374536284330,
+					"hostname": "www.ibm.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374542726781,
+					"hostname": "qqcdnpicweb.mxplay.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374565723102,
+					"hostname": "www.coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374616531363,
+					"hostname": "deb.etcher.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374629901270,
+					"hostname": "websiteforstudents.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374639592161,
+					"hostname": "forum.grafana.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374644723324,
+					"hostname": "gcr.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374653815341,
+					"hostname": "www.cyfe.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374699352293,
+					"hostname": "www.envoyproxy.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374714308817,
+					"hostname": ".vuejs.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396374744686769,
+					"hostname": "careers.coursera.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396375499168860,
+					"hostname": "gitter.im",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396375501561617,
+					"hostname": "api-js.mixpanel.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396375525015347,
+					"hostname": "public-assets.envato-static.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396375531949751,
+					"hostname": "www.datacamp.co",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396375658056422,
+					"hostname": "www.smashingmagazine.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396376769054643,
+					"hostname": "www.geforce.co.uk",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377923601840,
+					"hostname": "levelup.gitconnected.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377932554637,
+					"hostname": "mx-video-player.en.softonic.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377942765848,
+					"hostname": "kb.objectrocket.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377952856023,
+					"hostname": "www.retroarch.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377960763059,
+					"hostname": "cdnmrtehran.ir",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377970619866,
+					"hostname": "gala.spiceworks.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377978755464,
+					"hostname": "api.spiceworks.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396377990082294,
+					"hostname": "iogames.space",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378039831066,
+					"hostname": ".avocode.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378058655848,
+					"hostname": "trinket-vendor-assets.trinket.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378109778161,
+					"hostname": "worldometers.info",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378663029455,
+					"hostname": "www.json.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378674985750,
+					"hostname": "starget.intel.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378685918565,
+					"hostname": "placeitmarketing.s3.amazonaws.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378689615135,
+					"hostname": "www.twilio.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378708045267,
+					"hostname": "www.makeuseof.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378717611863,
+					"hostname": "privacyportal.onetrust.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378739456062,
+					"hostname": "fossbytes.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378747477488,
+					"hostname": "community.spiceworks.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378828136155,
+					"hostname": "www.javascript.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396378836589792,
+					"hostname": "nicev2.placeit.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386113267385,
+					"hostname": "bazel.build",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386123512580,
+					"hostname": "docs.bazel.build",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386140634861,
+					"hostname": "palletsprojects.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386150465111,
+					"hostname": "bam.nr-data.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386158545375,
+					"hostname": "codewithmosh.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386167716200,
+					"hostname": "www.balena.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386176557060,
+					"hostname": "greenlock.domains",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386186084846,
+					"hostname": "www.oracle.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386195923185,
+					"hostname": "cdnjs.cloudflare.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386203566890,
+					"hostname": "basemaps.arcgis.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386273108608,
+					"hostname": "dnsdumpster.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386744182921,
+					"hostname": "play.grafana.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386813683497,
+					"hostname": "cdn.arcgis.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386829942959,
+					"hostname": "user-content.gitlab-static.net",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386838735951,
+					"hostname": "cdn.pearmill.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396386885308288,
+					"hostname": "track.customer.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402229293731,
+					"hostname": "www.chaseadams.io",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402269956257,
+					"hostname": "ekop.intel.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402287559336,
+					"hostname": "registry.npmjs.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402328125985,
+					"hostname": "server.arcgisonline.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402402458930,
+					"hostname": "www.googletagmanager.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402857986674,
+					"hostname": "kodekloud.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402906120309,
+					"hostname": "web-analytics.engagio.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402912902079,
+					"hostname": "www.heroku.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396402920589075,
+					"hostname": "odr.mookie1.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396435524237196,
+					"hostname": "profiles.tagger.opecloud.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396435606138991,
+					"hostname": "api-gateway.trello.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396435663198315,
+					"hostname": "knrpc.olark.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396435672050475,
+					"hostname": "microlancer.lancerassets.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396643999004351,
+					"hostname": "idaas.iam.ibm.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396644580522905,
+					"hostname": "fedoramagazine.org",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594396651813907886,
+					"hostname": "idsync.rlcdn.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594409059964104206,
+					"hostname": "signaler-pa.clients6.google.com",
+					"ip": "95.217.80.28",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594409169269940136,
+					"hostname": ".docker.com",
+					"ip": "95.217.80.28",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594409279793128209,
+					"hostname": ".docker.io",
+					"ip": "95.217.80.28",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594467842136464280,
+					"hostname": ".mysql.com",
+					"ip": "0.0.0.0",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594468422648387169,
+					"hostname": ".nvidia.com",
+					"ip": "1.1.1.1",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				},
+				{
+					"id": 1594468537913136249,
+					"hostname": "geolocation.onetrust.com",
+					"ip": "1.1.1.1",
+					"target": "main.gozar",
+					"ttl": 60,
+					"type": "CNAME"
+				}
+			]
 		}
 	],
 	"activeEnv": "",
