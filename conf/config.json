@@ -1,0 +1,22 @@
+{
+	"version": 2,
+	"remoteDnsServers": [
+		"My_Public_IP:54"
+	],
+	"envs": [
+		{
+			"name": ""
+		}
+	],
+	"activeEnv": "",
+	"webServerPort": 0,
+	"dnsServerPort": 0,
+	"defaultDns": null,
+	"logLevel": "",
+	"logFile": "",
+	"registerContainerNames": null,
+	"hostMachineHostname": "",
+	"domain": "",
+	"dpsNetwork": false,
+	"dpsNetworkAutoConnect": false
+}
