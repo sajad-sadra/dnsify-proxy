@@ -3,7 +3,7 @@ version: "3.7"
 services: 
 
   dns-proxy:
-    image: defreitas/dns-proxy-server
+    image: defreitas/dns-proxy-server:2.19.0
     restart: always
     ports: 
       - "53:53/udp"
@@ -12,15 +12,9 @@ services:
       - ./conf/:/app/conf/
       - /var/run/docker.sock:/var/run/docker.sock
       - /etc/resolv.conf:/etc/resolv.conf
-
-  doh-cloudflare:
-    image: qmcgaw/cloudflare-dns-server
-    ports:
-      - "54:53/udp"
-    restart: always
-
+      
   nginx:
-    image: sajadsadra/proxy-pass
+    image: sajadsadra/proxy-pass:latest
     restart: always
     ports: 
       - 80:80
